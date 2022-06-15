@@ -1,0 +1,101 @@
+body{
+background-color: blanchedalmond;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+}
+a{
+  text-decoration:none;
+  color: black;
+ text-align: center;
+}
+header{
+  display: flex;
+   min-height: 70px;
+  justify-content: space-between;
+background-color: darkgreen;
+ align-items: center;
+  padding:10px;
+  text-decoration: underline;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  height: 80px;
+ margin-right: 40px;
+}
+nav a{
+  font-weight: 600;
+  padding-right: 10px;
+
+}
+nav a:hover{
+  color: coral;
+
+}
+@media{ 
+  max-width::after
+  {
+  header{
+  flex-direction:column;
+  }
+}
+}
+  nav{
+    padding: 10px 0px;
+  }
+  #n12{
+    padding: 50px 20px;
+    background-color: blanchedalmond;
+    margin: calc(25% + 100px);
+    margin-top: 70px;
+    padding-top: 28px;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  #
+  
+  h1 {
+    text-align: center;
+    padding: 12px;
+    color: #444
+  }
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  input {
+    width: calc(100% - 20px);
+    padding: 9px;
+    margin: auto;
+    margin-top: 12px;
+    font-size: 16px
+  }
+  
+  input[type='submit']{
+    background-color: #48e;
+   color: aqua;
+    width: calc(80% - 20px);
+    margin: 0 10%;
+    margin-top: 22px;
+    border: none;
+  }
+  
+  
+  .ok {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #1e6;
+    color: #fff
+  }
+  .bad {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #a22;
+    color: rgb(255, 255, 255)
+  }
